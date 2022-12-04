@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(gym3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+#main{
+    color: blueviolet;
+}
+
+.box {
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid purple;
+}
+
+.box input {
+    color:white;
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    /* color: rgb(178, 15, 15); */
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+
+}
+
+.box i {
+    width: 25px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.5;
+    color: purple;
+    background: white;
+
+}
